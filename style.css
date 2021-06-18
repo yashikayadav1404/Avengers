@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding top: 800px;
+    text-align: center;
+    background: #00FFCC;
+    background: -moz-radial-gradient(center, #00FFCC 0%, #FF50CB 50%, #FFED00 100%);
+    background: -webkit-radial-gradient(center, #00FFCC 0%, #FF50CB 50%, #FFED00 100%);
+    background: radial-gradient(ellipse at center, #00FFCC 0%, #FF50CB 50%, #FFED00 100%);
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    height: 6px;
+    width: 80px;
+    background: Black;
+    margin: 8px auto;
+
+}
+
+#image2 {
+    width: 300px;
+    height: 200px;
+}
+
+#image1 {
+    width: 500px;
+    height: 400px;
+}
+
+#image3 {
+    width: 1000px;
+    height: 500px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    color: red;
+    font-weight: 400;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+}
